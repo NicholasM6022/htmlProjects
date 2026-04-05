@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    font-family: "Libre Baskerville", serif;
+    color: whitesmoke;
+    padding: 0px;
+    margin-left: 855px;
+    
+}
+
+img
+{
+    margin-left: 200px;
+    padding: 0px;
+    height: 750px;
+    width: 1500px;
+    border: 10px solid burlywood;
+
+}
+
+h2
+{
+    font-family: "Libre Baskerville", serif;
+    margin-left: 750px;
+    color: whitesmoke;
+}
