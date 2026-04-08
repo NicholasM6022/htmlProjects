@@ -5,46 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Lesson Work</title>
     <style>
-        div
+        h1, h2
         {
-            height: 200px;
-            width: 200px;
+            color: blueviolet;
+        }      
+        .box > p
+        {
+            color: firebrick;
+        }
+        .box li
+        {
+            color: blue;
         }
 
-        #divOne
+        li.done
         {
-            background-color: aquamarine;
-            padding: 20px;
-            border: 10px solid black;
+            color: seagreen;
+        }
+        ul  p.done
+        {
+            font-size: 2rem;
         }
 
-        #divTwo
+        input[checked]
         {
-            background-color: blueviolet;
-            border: 10px solid black;
-            border-width: 20px 10px;
-            margin-left: 260px;
+            color:rebeccapurple;
         }
-
-        #divThree
-        {
-            background-color: cadetblue;
-            border: 10px solid black;
-            margin-left: 40px;
-        }
-
-        p
-        {
-            margin: 0px;
-        }
-
     </style>
 </head>
 <body>
-    <div id="divOne">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, mollitia a possimus consectetur vitae iste consequatur laboriosam, obcaecati ea praesentium, ex reiciendis explicabo doloremque aut quas rerum hic provident fugit.</p>
+    <h1>To Do List</h1>
+    <h2>Monday</h2>
+    <div class="box">
+        <p class="done">Do these things today!</p>
+        <ul class="list">
+            <li>Wash Clothes</li>
+            <li class="done">Read</li>
+            <li class="done">Math Questions</li>
+        </ul>
     </div>
-    <div id="divTwo"></div>
-    <div id="divThree"></div>
+    <ul>
+        <p class="done">Other Items</p>
+    </ul>
+    <p>The best preperation for tomorrow is doing your best today</p>
+
+
+    <input type="checkbox" id="one" checked>
+    <label for="one">One</label>
+    <input type="checkbox" id="two" checked>
+    <label for="two">Two</label>
+    <input type="checkbox" id="three">
+    <label for="three">Three</label>
 </body>
 </html>

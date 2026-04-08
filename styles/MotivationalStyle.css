@@ -1,6 +1,7 @@
 body
 {
     background-color: black;
+    
 }
 
 h1
@@ -8,23 +9,27 @@ h1
     font-family: "Libre Baskerville", serif;
     color: whitesmoke;
     padding: 0px;
-    margin-left: 855px;
+    margin-left: 75%;
     
+}
+#container
+{
+    width: 50%;
+    margin-left: 25%;
 }
 
 img
 {
     margin-left: 200px;
     padding: 0px;
-    height: 750px;
-    width: 1500px;
+    width: 100%;
     border: 10px solid burlywood;
 
 }
 
-h2
+#subText
 {
     font-family: "Libre Baskerville", serif;
-    margin-left: 750px;
+    margin-left: 70%;
     color: whitesmoke;
 }
