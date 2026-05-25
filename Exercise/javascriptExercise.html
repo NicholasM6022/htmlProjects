@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavascriptStuff</title>
+    <style>
+        body{
+            background-color: rgb(55, 127, 221);
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        let tweet = prompt("Compose:");
+        let shortTweet = tweet.length >= 140 ? tweet.slice(0, 141) : tweet;
+        tweetCount = shortTweet.length;
+
+        console.log(tweet);
+        console.log(shortTweet);
+        console.log(tweetCount + " is shortened to " + shortTweet)
+
+        //This is supposed to be really long so I will keep typing for a bit and see if I can get above the hundred and forty character limit. I think this should be about good but just in case I will add a few more characters to this sentence.
+    </script>
+</body>
+</html>
